@@ -1,0 +1,23 @@
+/* descendant selector combinator untuk styling / slicing paragraf yang ada di dalam div */
+
+div p {
+    background-color: red;
+} 
+
+/* child selector combinator untuk styling / slicing paragraf yang langsung ada di dalam div */
+
+div > p {
+    background-color: aqua;
+}
+
+/* adjacent sibling combinator untuk styling / sliing pargraf yang berada setelah element div */
+
+p + h4 {
+    background-color: yellow;
+}
+
+/* general siblings selector untuk styling / slicing dengan induk yang sama */
+div ~ p {
+    background-color: blue;
+} 
+

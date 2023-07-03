@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section>
+
+        <div class="circle"></div>
+
+        <header>
+            <a href="" class="logo"> 
+                <img width="300" src="assets/img/jmtm1.png" alt=""> 
+            </a>
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Profile</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </header>
+
+        <div class="content">
+
+            <div class="textbox">
+                <h2>Welcome To Profile Company</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis iure eius libero consequuntur sequi cumque perferendis quia ut accusantium expedita.</p>
+                <a href="">Learn More</a>
+            </div>
+
+            <div class="imgbox">
+                <img src="assets/img/buldoser.png" width="550" alt="" class="heroimg">
+            </div>
+        </div>
+
+        <ul class="subhero">
+            <li>
+              <img src="assets/img/buldoser.png" class="subhero1" onmouseenter="imgSlider('assets/img/buldoser.png')"> 
+            </li>
+            <li>
+               <img src="assets/img/aspal1.png" class="subhero1" onmouseenter="imgSlider('assets/img/aspal1.png')">
+            </li>
+            <li>
+               <img src="assets/img/aspal2.png" class="subhero1" onmouseenter="imgSlider('assets/img/aspal2.png')">
+            </li>
+        </ul> 
+        
+        <ul class="sosmed">
+            <li>
+                <a href=""><img src="assets/img/instagram.png" alt=""></a>
+            </li>
+            <li>
+                <a href=""><img src="assets/img/twitter.png" alt=""></a>
+            </li>
+            <li>
+                <a href=""><img src="assets/img/facebook.png" alt=""></a>
+            </li>
+        </ul>
+
+    </section>
+
+    <div class="footer">
+        <h2> &copy; Jasamarga 2023</h2>
+    </div>
+
+    <script type="text/javascript">
+        function imgSlider(select){
+            document.querySelector('.heroimg').src = select
+        }
+    </script>
+</body>
+</html>

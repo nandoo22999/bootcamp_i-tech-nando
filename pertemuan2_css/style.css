@@ -1,0 +1,29 @@
+.div1 {
+    background-color: blue;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    border: 10px solid greenyellow;
+}
+
+.div2 {
+    margin-top: 15px;
+    background-color: aquamarine;
+    height: 100px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 100%;
+    color: rgb(247, 247, 250);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #192cdb;
+    padding: 10px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    line-height: 20px;
+    padding: 15px;
+}

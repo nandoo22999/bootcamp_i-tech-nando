@@ -1,0 +1,46 @@
+input[type=text], input[type=number], select {
+    width: 100%;
+    padding: 5px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgb(128, 125, 125);
+}
+
+
+textarea {
+    width: 100%;
+    /* padding: 14px; */
+    padding-bottom: 80px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+div {
+    background-color: rgb(159, 209, 193);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 5px;
+    /* text-align: center; */
+}
+
+input[type=submit] {
+    background-color: rgb(252, 0, 0);
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(128, 4, 4);
+}
+
+
+
